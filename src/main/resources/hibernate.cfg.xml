@@ -1,0 +1,13 @@
+<hibernate-configuration xmlns="http://www.hibernate.org/xsd/orm/cfg">
+    <session-factory>
+        <property name="connection.url">jdbc:mysql://localhost:3306/redis_demo?serverTimezone=Asia/Shanghai</property>
+        <property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+        <property name="connection.username">root</property>
+        <property name="connection.password"></property>
+        <property name="hbm2ddl.auto">update</property>
+        <property name="show_sql">true</property>
+        <property name="format_sql">true</property>
+        <mapping class="com.example.demo1.model.Stock"/>
+
+    </session-factory>
+</hibernate-configuration>

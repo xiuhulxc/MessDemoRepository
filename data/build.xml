@@ -1,0 +1,5 @@
+<project name="hibernate-tutorial" default="compile">
+    <property name="sourcedir" value="${basedir}/src"/>
+    <property name="targetdir" value="${basedir}/bin"/>
+    <property name="librarydir" value="${basedir}/lib"/>
+</project>

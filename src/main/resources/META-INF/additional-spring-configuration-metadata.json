@@ -1,0 +1,23 @@
+{
+  "properties": [
+    {
+      "name": "spring.redis.redis.lettuce.pool.max-idle",
+      "type": "java.lang.String",
+      "description": "Description for spring.redis.redis.lettuce.pool.max-idle."
+    },
+    {
+      "name": "spring.type.testWhileIdle",
+      "type": "java.lang.String",
+      "description": "Description for spring.type.testWhileIdle."
+    },
+    {
+      "name": "spring.redis.redis.nodes",
+      "type": "java.lang.String",
+      "description": "Description for spring.redis.redis.nodes."
+    },
+    {
+      "name": "spring.redis.redis.cluster",
+      "type": "java.lang.String",
+      "description": "Description for spring.redis.redis.cluster."
+    }
+  ] }
